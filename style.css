@@ -1,0 +1,37 @@
+body {
+  font-family: "Open Sans", sans-serif;
+}
+.product-card .img-wrap {
+  height: 250px;
+  padding: 0.5rem;
+  display: block;
+  text-align: center;
+}
+
+.product-card img {
+  height: 100%;
+  width: auto;
+  object-fit: cover;
+  max-width: 100%;
+}
+@media (max-width: 768px) {
+  .product-card .img-wrap {
+    border-bottom: 1px solid #dee2e6;
+  }
+}
+
+.title {
+  color: black;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+.price {
+  color: orange;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.rating {
+  font-size: 16px;
+  color: orange;
+}
